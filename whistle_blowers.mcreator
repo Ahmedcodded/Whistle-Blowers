@@ -1,0 +1,452 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlayWhistle1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_whistle_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayWhistle1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whistle1",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whistle_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/Whistle1Message.java"
+        ]
+      }
+    },
+    {
+      "name": "WhistleCooldown",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whistle_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/potion/WhistleCooldownMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayWhistle3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_whistle_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayWhistle3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayFlirtyWhistle",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_flirty_whistle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayFlirtyWhistleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayClap",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_clap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayClapProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayNOW",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_now",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayNOWProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Whistle2",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whistle_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/Whistle2Message.java"
+        ]
+      }
+    },
+    {
+      "name": "Whistle3",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whistle_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/Whistle3Message.java"
+        ]
+      }
+    },
+    {
+      "name": "FlirtyWhistle",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flirty_whistle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/FlirtyWhistleMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "NOW",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "now",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/NOWMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Clap",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/ClapMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "SignalsGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "signals_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/client/gui/SignalsGUIScreen.java",
+          "src/main/java/net/mcreator/whistleblowers/network/SignalsGUIButtonMessage.java",
+          "src/main/java/net/mcreator/whistleblowers/world/inventory/SignalsGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenSignals",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_signals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/OpenSignalsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SignalsKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "signals_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/network/SignalsKeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayWhistle2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "play_whistle_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/whistleblowers/procedures/PlayWhistle2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "clap",
+      "files": [
+        "clap"
+      ],
+      "category": "player",
+      "subtitle": "Player Claps"
+    },
+    {
+      "name": "whistle1",
+      "files": [
+        "whistle1"
+      ],
+      "category": "player",
+      "subtitle": "1st Player Whistle"
+    },
+    {
+      "name": "whistle2",
+      "files": [
+        "whistle2"
+      ],
+      "category": "player",
+      "subtitle": "2nd Player Whistle"
+    },
+    {
+      "name": "whistle3",
+      "files": [
+        "whistle3"
+      ],
+      "category": "player",
+      "subtitle": "3rd Player Whistle"
+    },
+    {
+      "name": "flirty_whistle",
+      "files": [
+        "flirty_whistle"
+      ],
+      "category": "player",
+      "subtitle": "Flirty Whistle"
+    },
+    {
+      "name": "now",
+      "files": [
+        "now"
+      ],
+      "category": "player",
+      "subtitle": "Player Shout NOW"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.whistle_blowers.signals_gui.button_2nd_whistle": "2nd Whistle",
+      "subtitles.flirty_whistle": "Flirty Whistle",
+      "gui.whistle_blowers.signals_gui.button_now": "Now",
+      "gui.whistle_blowers.signals_gui.button_flirty_whistle": "Flirt Whistle",
+      "effect.whistle_blowers.whistle_cooldown": "Whistle Cooldown",
+      "key.whistle_blowers.now": "NOW",
+      "key.whistle_blowers.whistle_3": "3rd Whistle",
+      "key.whistle_blowers.whistle_1": "1st Whistle",
+      "key.whistle_blowers.whistle_2": "2nd Whistle",
+      "key.whistle_blowers.clap": "Clap",
+      "subtitles.whistle3": "3rd Player Whistle",
+      "subtitles.whistle1": "1st Player Whistle",
+      "subtitles.whistle2": "2nd Player Whistle",
+      "key.whistle_blowers.flirty_whistle": "Flirty Whistle",
+      "gui.whistle_blowers.signals_gui.button_clap": "Clap",
+      "gui.whistle_blowers.signals_gui.button_3rd_whistle": "3rd Whistle",
+      "gui.whistle_blowers.signals_gui.button_1st_whistle": "1st Whistle",
+      "subtitles.clap": "Player Claps",
+      "subtitles.now": "Player Shout NOW",
+      "key.whistle_blowers.signals_key": "Signals Menu"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "whistle_blowers",
+    "modName": "Whistle Blowers",
+    "version": "1.0.0",
+    "description": "Adds Audio Emotes (mostly whistles) for enhanced combat communication and overall fun",
+    "author": "GlitchyQuark",
+    "websiteURL": "https://modrinth.com/project/whistle-blowers",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "whistle",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made by GlitchyQuark using MCreator",
+    "modElementsPackage": "net.mcreator.whistleblowers"
+  },
+  "mcreatorVersion": 202400229712
+}

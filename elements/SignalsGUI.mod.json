@@ -1,0 +1,112 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 294,
+    "height": 192,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clap",
+          "text": "Clap",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayClap"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_flirty_whistle",
+          "text": "Flirt Whistle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayFlirtyWhistle"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 285,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1st_whistle",
+          "text": "1st Whistle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayWhistle1"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 69,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_2nd_whistle",
+          "text": "2nd Whistle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayWhistle2"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 69,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_3rd_whistle",
+          "text": "3rd Whistle",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayWhistle3"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 285,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_now",
+          "text": "Now",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "PlayNOW"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 177,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "gui.whistle_blowers.signals_gui.button_2nd_whistle": "2nd Whistle",
+  "subtitles.flirty_whistle": "Flirty Whistle",
+  "gui.whistle_blowers.signals_gui.button_now": "Now",
+  "gui.whistle_blowers.signals_gui.button_flirty_whistle": "Flirt Whistle",
+  "effect.whistle_blowers.whistle_cooldown": "Whistle Cooldown",
+  "key.whistle_blowers.now": "NOW",
+  "key.whistle_blowers.whistle_3": "3rd Whistle",
+  "key.whistle_blowers.whistle_1": "1st Whistle",
+  "key.whistle_blowers.whistle_2": "2nd Whistle",
+  "key.whistle_blowers.clap": "Clap",
+  "subtitles.whistle3": "3rd Player Whistle",
+  "subtitles.whistle1": "1st Player Whistle",
+  "subtitles.whistle2": "2nd Player Whistle",
+  "key.whistle_blowers.flirty_whistle": "Flirty Whistle",
+  "gui.whistle_blowers.signals_gui.button_clap": "Clap",
+  "gui.whistle_blowers.signals_gui.button_3rd_whistle": "3rd Whistle",
+  "gui.whistle_blowers.signals_gui.button_1st_whistle": "1st Whistle",
+  "subtitles.clap": "Player Claps",
+  "subtitles.now": "Player Shout NOW",
+  "key.whistle_blowers.signals_key": "Signals Menu"
+}

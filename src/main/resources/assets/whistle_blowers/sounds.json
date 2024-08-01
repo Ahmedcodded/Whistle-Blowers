@@ -1,0 +1,56 @@
+{
+  "clap": {
+    "subtitle": "subtitles.clap",
+    "sounds": [
+      {
+        "name": "whistle_blowers:clap",
+        "stream": false
+      }
+    ]
+  },
+  "whistle1": {
+    "subtitle": "subtitles.whistle1",
+    "sounds": [
+      {
+        "name": "whistle_blowers:whistle1",
+        "stream": false
+      }
+    ]
+  },
+  "whistle2": {
+    "subtitle": "subtitles.whistle2",
+    "sounds": [
+      {
+        "name": "whistle_blowers:whistle2",
+        "stream": false
+      }
+    ]
+  },
+  "whistle3": {
+    "subtitle": "subtitles.whistle3",
+    "sounds": [
+      {
+        "name": "whistle_blowers:whistle3",
+        "stream": false
+      }
+    ]
+  },
+  "flirty_whistle": {
+    "subtitle": "subtitles.flirty_whistle",
+    "sounds": [
+      {
+        "name": "whistle_blowers:flirty_whistle",
+        "stream": false
+      }
+    ]
+  },
+  "now": {
+    "subtitle": "subtitles.now",
+    "sounds": [
+      {
+        "name": "whistle_blowers:now",
+        "stream": false
+      }
+    ]
+  }
+}
